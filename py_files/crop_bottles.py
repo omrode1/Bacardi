@@ -3,7 +3,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load YOLOv8 model (COCO pre-trained model)
-model = YOLO('yolov8m.pt')  # Using YOLOv8 Nano for detection, you can replace this with a different YOLOv8 model if needed
+model = YOLO('yolov8n.pt')  # Using YOLOv8 Nano for detection, you can replace this with a different YOLOv8 model if needed
 
 # Function to crop detected objects and save them
 def crop_and_save(image, bboxes, output_folder, image_name):
@@ -45,8 +45,8 @@ def process_images(input_folder, output_folder):
                 print(f"No bottles detected in {image_file}")
 
 # Input and output folders
-input_folder = '/home/quantic/Downloads/spiced'    # Replace with your input folder path containing images
-output_folder = 'dataset-collected/All-cropped-segregated/Spiced'  # Replace with your output folder path to save cropped images
+input_folder = '/home/quantic/Om-Projects/clients/Bacardi/data/images/uncropped'    # Replace with your input folder path containing images
+output_folder = '/home/quantic/Om-Projects/clients/Bacardi/data/images/cropped'  # Replace with your output folder path to save cropped images
 
 # Process images
 process_images(input_folder, output_folder)
