@@ -46,7 +46,7 @@ def process_images(input_folder, output_folder):
 
 # Input and output folders
 input_folder = '/home/quantic/Om-Projects/clients/Bacardi/data/images/uncropped'    # Replace with your input folder path containing images
-output_folder = '/home/quantic/Om-Projects/clients/Bacardi/data/images/cropped'  # Replace with your output folder path to save cropped images
+output_folder = '/home/quantic/Om-Projects/clients/Bacardi/data/images/cropped_all'  # Replace with your output folder path to save cropped images
 
 # Process images
 process_images(input_folder, output_folder)

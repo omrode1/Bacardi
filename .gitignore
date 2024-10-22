@@ -1,5 +1,7 @@
-models
 dataset
 dataset-collected
 data
 Train_Flavors
+
+#ignore the model files
+models

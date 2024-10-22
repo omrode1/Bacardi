@@ -18,8 +18,8 @@ if len(sys.argv) != 2:
 class_id = int(sys.argv[1])
 
 # Define the folder containing images
-input_folder = 'dataset-collected/All-cropped-segregated/Superior'
-output_folder = 'dataset-collected/All-cropped-segregated/Superior'
+input_folder = '/home/quantic/Om-Projects/clients/Bacardi/data/images/cropped/Superior'
+output_folder = '/home/quantic/Om-Projects/clients/Bacardi/data/images/cropped/Superior'
 
 # Create output folder if it doesn't exist
 if not os.path.exists(output_folder):
